@@ -50,6 +50,19 @@ d. C++는 데이터와 함수를 논리적이며 융통성 있게 관리한다.
 endl은 개행 문자(\n)를 출력하는 조작자로 헤더 파일 iostream에 정의되어 있다.
 
 cin은 입력을 받는 것이다. 키보드로 값을 입력하고 enter을 눌러야지만 값이 반영된다.
+
+<조작자>				<의미>
+dec				10진수로 변환 설정
+hex				16진수로 변환 설정
+oct				8진수로 변환 설정
+endl				개행 문자를 출력
+ends				공문자(\0) 출력
+setfill(int c)			c로 채우기 설정
+setpredision(int n)		부동 소수점의 유효 자릿수를 n개로 설정
+setw(int n)			필드 폭을 n으로 설정
+setiosflags(long f)		아래의 표에 있는 형식 플래그에 의해 지정된 형식 설정
+resetiosflags(long f)		아래의 표의 있는 형식 플래그에 의해 지정된 형식 삭제제
+
 <형식 플래그명>			<의미>
 ios::left			setw() 폭 안에 출력을 좌측으로 정렬
 ios::right			setw() 폭 안에 출력을 우측으로 정렬
