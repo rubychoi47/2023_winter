@@ -1,0 +1,4 @@
+아직 까지는 C++보다 C언어가 익숙하다 보니 #include <stdio.h>가 
+#include <iostream>
+using namesapce std;
+보다 익숙해서 시간이 더 지나야 익숙해 질 것 같다
