@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+int main(){
+	int num,i,j,max=-1000,check=0;
+	int arr[10];
+	for(i=0; i<9; i++){
+		cin>>arr[i];
+	}
+	for(j=0;j<10;j++){
+		if(max<arr[j]){
+			max=arr[j];
+			check=j+1;
+		}
+	}
+	cout<<max<<endl<<check;
+	return 0;
+}
